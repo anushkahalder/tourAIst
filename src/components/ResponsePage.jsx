@@ -112,9 +112,7 @@ const ResponsePage = ({ country, state, days }) => {
       <div className="row resRow">
         <div className="col-8 resCol">
           {/* <p>Response for {tripRequests?.country}, {tripRequests.state},{tripRequests.days}  days:</p> */}
-          <p><em><b>
-            Trip plan for {tripRequests?.days} days in {tripRequests?.state}, {tripRequests?.country?.charAt(0).toUpperCase() + tripRequests?.country?.slice(1)}:
-          </b></em></p>
+        
 
           {isDataLoading ? (
             <p className="loading-text">Loading trip plan...</p>
