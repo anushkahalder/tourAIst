@@ -1,0 +1,85 @@
+.tripHeader {
+    padding: 20px; /* Padding for internal spacing */
+}
+
+ 
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-8,
+.col-4 {
+    flex: 0 0 auto;
+    padding: 10px;
+}
+
+.col-9,
+.col-3 {
+    flex: 0 0 auto;
+    padding: 10px;
+}
+
+.dayTrips, .restaurants {
+    background-color: #fff; /* White background for the cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    margin-bottom: 20px; /* Spacing between cards */
+}
+
+h3 {
+    color: maroon; /* Heading color */
+    margin-bottom: 15px; /* Spacing below headings */
+}
+
+h4 {
+    color: teal; /* Day headings color */
+}
+
+.restaurant-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.restaurant-item {
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0; /* Light border for restaurant items */
+}
+
+.restaurant-name {
+    font-weight: bold; /* Bold for restaurant names */
+}
+
+.restaurant-description {
+    color: #666; /* Slightly lighter color for descriptions */
+}
+
+.day-card {
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding:  1%; /* Internal spacing */
+    margin-bottom: 2%; /* Spacing between cards */
+    border-left: 4px solid black;
+}
+
+.day-card h4 {
+    color: maroon; /* Heading color for days */
+    margin-bottom: 4px; /* Spacing below day heading */
+}
+
+.day-card ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.day-card li {
+    padding: 2px 0; /* Spacing between activities */
+    border-bottom: 1px solid #f0f0f0; /* Light border for separation */
+}
+
+.day-card li:last-child {
+    border-bottom: none; /* Remove border for last item */
+}
