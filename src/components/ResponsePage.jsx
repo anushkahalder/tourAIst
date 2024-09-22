@@ -122,6 +122,9 @@ const ResponsePage = ({ country, state, days }) => {
             <p className="error-text">Error fetching trip plan. Please try again.</p>
           ) : data.length > 0 ? (
             <div>
+              <p><em><b>
+                Trip plan for {tripRequests?.days} days in {tripRequests?.state}, {tripRequests?.country?.charAt(0).toUpperCase() + tripRequests?.country?.slice(1)}:
+              </b></em></p>
               {data.slice(startIndex, endIndex).map((trip, index) => (
                 <div
                   className={`row trip-card ${selectedTrip && selectedTrip.tripName === trip.tripName ? "selected" : ""}`}
